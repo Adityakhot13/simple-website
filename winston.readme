@@ -1,0 +1,62 @@
+✅ How to Run the Node.js + Express + Winston Logging Project
+1. Install Node.js
+
+If you don’t have Node installed:
+
+Download it here:
+👉 https://nodejs.org/
+
+Verify installation:
+
+node -v
+npm -v
+
+✅ 2. Extract the ZIP
+
+Unzip the file:
+
+simple_web_app/
+
+
+Open a terminal/command prompt inside this folder.
+
+✅ 3. Install Dependencies
+
+Run this inside the project folder:
+
+npm install
+
+
+This installs:
+
+Express
+
+Winston
+
+Morgan
+
+✅ 4. Start the Server
+
+Run:
+
+node app.js
+
+
+If you want auto-restart when files change:
+
+npm install -g nodemon
+nodemon app.js
+
+✅ 5. Open the Web App in Browser
+
+Go to:
+
+👉 http://localhost:3000
+
+✅ 6. View Logs
+
+Logging files will appear automatically:
+
+logs/app.log → Winston logs (info, errors)
+
+console output → Morgan logs (HTTP requests)
