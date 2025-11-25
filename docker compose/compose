@@ -1,0 +1,12 @@
+
+
+docker compose experiment
+web-app
+    docker_compose.yml
+      |
+      web- index.php
+          -dockerfile
+
+
+command :  docker-compose up --build
+visit :    http://localhost:8080
